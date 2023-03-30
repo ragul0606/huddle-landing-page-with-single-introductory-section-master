@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+}
+
+:root {
+  --clr-violet: hsl(257, 40%, 49%);
+  --clr-magenta: hsl(300, 69%, 71%);
+  --radius: 0.5px;
+  --ff-poppins: "Open Sans", sans-serif;
+  --ff-open-sans: "Poppins", sans-serif;
+}
