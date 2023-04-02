@@ -13,8 +13,16 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem 3.25rem;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/bg-mobile.svg);
+  background-color: var(--clr-violet);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* global css */
@@ -42,17 +50,19 @@ li {
 
 .btn {
   display: inline-block;
-  border-radius: 8px;
-  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  padding: 0.5rem 4rem;
   margin-top: 0.5rem;
   text-transform: capitalize;
-  font-size: 1.2rem;
+  font-family: var(--ff-open-sans);
+  font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
   /* customize */
-  background-color: #1c2042;
-  color: white;
-  border: 2px solid #1c2042;
+  background-color: #fff;
+  color: var(--clr-violet);
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 4px hsl(260, 49%, 36%);
 }
 
 :root {
@@ -62,7 +72,88 @@ li {
   --ff-open-sans: "Open Sans", sans-serif;
 }
 
+.navbar {
+  height: 4rem;
+}
+
+.logo {
+  width: 140px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0rem;
+  gap: 1rem;
+}
+
+.header-left-container {
+  width: 100%;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+}
+
+.header-right-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.main-title {
+  font-family: var(--ff-poppins);
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+
+.main-description {
+  text-align: center;
+  font-family: var(--ff-open-sans);
+  font-size: 0.9rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+footer {
+  height: 4rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.icons {
+  display: block;
+  color: #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (min-width: 576px) {
+  body {
+    background-image: url(../images/bg-desktop.svg);
+  }
 }
 
 /* Medium devices (tablets) */
