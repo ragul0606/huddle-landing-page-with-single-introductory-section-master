@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: https://github.com/ragul0606/huddle-landing-page-with-single-introductory-section-master
 - Live Site URL: (https://your-live-site-url.com)
 
 ## My process
