@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/ragul0606/huddle-landing-page-with-single-introductory-section-master
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: https://bespoke-selkie-a8b249.netlify.app/
 
 ## My process
 
